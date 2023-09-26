@@ -1,0 +1,149 @@
+/* GENERAL */
+
+body{
+    margin:30px;
+}
+
+.section{
+    padding-top: 100px;
+}
+
+.section-title>h3{
+    font-weight: 1000;
+    font-size: 100px;
+    margin:0px;
+    letter-spacing: -4px;
+    color: black;
+}
+
+/*TOP SALES SECTION */
+.cards{
+    display:flex;
+} 
+
+.card{
+    border: 1px rgb(240, 240, 240) solid;
+    padding:0px 30px;
+}
+
+.card .price{
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.etiquetas{
+    display: flex;
+    margin-left:-30px
+}
+
+.etiquetas p{
+    background-color:black;
+    padding:4px 6px;
+    margin: 0px 4px 15px 0px;
+    color:rgb(243, 243, 243);
+    font-size:16px;
+}
+ /*imagen de la card*/
+.imagen{
+   
+    width:22rem;
+    height: 100%;
+    margin-bottom: 5px;
+}
+
+.detalles-producto{
+    margin: 4px 60px;
+    padding-bottom:25px;
+}
+
+.card .description{
+    text-transform: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.btn-detail{
+    font-size: 18px;
+    width:100%;
+    margin-bottom:30px
+}
+
+
+/* CUSTOM SECTION */
+
+.custom-section{
+    display: flex;
+    border: 1px rgb(240, 240, 240) solid;
+    align-items: center;
+}
+
+
+.custom-text>h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+
+.btn-two{
+    color:white;
+    background-color:#dd1229;
+    border:none;
+    font-size:24px;
+    font-weight: 500;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 54px;
+}
+
+h4{
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.custom-text>p{
+    font-family: 'Inter', sans-serif;
+    text-transform: none;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.btn-two-box{
+    display:flex;
+    justify-content: start;
+}
+
+.btn-two-box>p{
+    text-transform: none;
+    font-size: 16px;
+}
+
+/* PRODUCT DETAILS */
+.img-detail{
+    height: 720px;
+}
+
+.section-detail{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-details-info{
+    padding:50px
+}
+
+.detalle{
+    font-size: 10px;
+}
+@media screen and (max-width: 1100px){
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
